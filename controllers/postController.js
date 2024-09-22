@@ -3,10 +3,10 @@ const User = require('../models/user');
 exports.handlePost = (req, res) => {
   // Destructure and set default values
   const {
-    full_name = "Ritik_Katiyar_",
-    dob = "29062004",
-    email = "ritikkatiyar90@gmail.com",
-    roll_number = "RA2111003010373",
+    full_name = "Arnav_Shah_",
+    dob = "15032003",
+    email = "ak0339@srmist.edu.in",
+    roll_number = "RA2111003010378",
     data = []
   } = req.body;
 
