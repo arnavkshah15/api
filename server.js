@@ -15,7 +15,7 @@ app.post('/bfhl', (req, res) => {
 
     // File handling (assuming it's base64 for now)
     const fileValid = file_b64 ? true : false;  // Basic validation
-    const fileMimeType = 'text/plain';  // Assuming text for now
+    const fileMimeType = 'doc/pdf';  // Assuming text for now
     const fileSizeKb = file_b64 ? (Buffer.byteLength(file_b64, 'base64') / 1024).toFixed(2) : 0;
 
     const response = {
